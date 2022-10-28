@@ -9,7 +9,6 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "puzle.h"
 #include "listaia.h"
 #include "busqueda.h"
 

@@ -4,7 +4,10 @@
 /* Asignatura: Inteligencia Artificial     */
 /* Grado en Ingenieria Informatica - UCA   */
 /*******************************************/
-#include "puzle.h"
+#ifndef BUSQUEDA
+#define BUSQUEDA
+#include "jarras.h"
+#include "listaia.h"
 #ifndef _tNodo_
 #define _tNodo_
 typedef struct NodoBusqueda_{
@@ -23,3 +26,5 @@ int busquedaProfundidadLimitada(int limite);
 void solucionFin(int res);
 int buscarRepe(tNodo* estado, LISTA Cerrados);
 int busquedaProfundidadLimitadaIterativa(int limite);
+
+#endif

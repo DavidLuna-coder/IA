@@ -4,6 +4,8 @@
 /* Asignatura: Inteligencia Artificial     */
 /* Grado en Ingenieria Informatica - UCA   */
 /*******************************************/
+#ifndef LISTA_IA
+#define LISTA_IA
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -27,7 +29,6 @@ void EliminarPrimero(LISTA *c);
 
 void InsertarUltimo(LISTA *c, void *n, int size);
 LISTA Concatenar(LISTA l1,LISTA l2);
-
-
+#endif
 
 
